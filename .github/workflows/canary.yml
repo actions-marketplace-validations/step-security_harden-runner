@@ -22,7 +22,7 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde # v1
+    - uses: step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d # v1
       with:
         egress-policy: audit
         allowed-endpoints:
